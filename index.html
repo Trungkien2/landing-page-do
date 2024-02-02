@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=UTM+Avo:wght@400;700&display=swap"
+    />
+    <link rel="icon" href="./asset/img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="./asset/img/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Trang chủ</title>
+  </head>
+  <body>
+    <!-- Loading container -->
+    <div class="loading-container">
+      <div class="loading-container-body">
+        <svg
+          width="160"
+          height="160"
+          viewBox="0 0 80 80"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <mask
+            id="pmask0"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="20"
+            y="50"
+            width="21"
+            height="20"
+          >
+            <path
+              d="M20.0183 50.0183H29.991L40.0365 69.9817H30.0638L20.0183 50.0183Z"
+              fill="black"
+            ></path>
+          </mask>
+          <g mask="url(#pmask0)">
+            <rect x="20" y="50" width="20" height="20" fill="#050607"></rect>
+            <rect
+              x="20"
+              y="50"
+              width="20"
+              height="20"
+              fill="#CA9D75"
+              class="preloader__fill"
+              style="animation-delay: 640ms"
+            ></rect>
+          </g>
+          <mask
+            id="pmask1"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="20"
+            y="20"
+            width="21"
+            height="20"
+          >
+            <path
+              d="M20.0183 20.0366H29.991L40.0365 40H30.0638L20.0183 20.0366Z"
+              fill="black"
+            ></path>
+          </mask>
+          <g mask="url(#pmask1)">
+            <rect x="20" y="20" width="20" height="20" fill="#050607"></rect>
+            <rect
+              x="20"
+              y="20"
+              width="20"
+              height="20"
+              fill="#AC835E"
+              class="preloader__fill"
+              style="animation-delay: 1440ms"
+            ></rect>
+          </g>
+          <mask
+            id="pmask2"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="0"
+            y="20"
+            width="21"
+            height="20"
+          >
+            <path
+              d="M0 20.0366H9.9727L20.0182 40H10.0455L0 20.0366Z"
+              fill="black"
+            ></path>
+          </mask>
+          <g mask="url(#pmask2)">
+            <rect y="20" width="20" height="20" fill="#050607"></rect>
+            <rect
+              y="20"
+              width="20"
+              height="20"
+              fill="#AC835E"
+              class="preloader__fill"
+              style="animation-delay: 320ms"
+            ></rect>
+          </g>
+          <mask
+            id="pmask3"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="29"
+            y="40"
+            width="12"
+            height="11"
+          >
+            <path
+              d="M29.9908 40H35.0136L40.0363 50.0182H35.0136L29.9908 40Z"
+              fill="black"
+            ></path>
+          </mask>
+          <g mask="url(#pmask3)">
+            <rect x="30" y="40" width="10" height="10" fill="#050607"></rect>
+            <rect
+              x="30"
+              y="40"
+              width="10"
+              height="10"
+              fill="#CA9D75"
+              class="preloader__fill"
+              style="animation-delay: 720ms"
+            ></rect>
+          </g>
+          <mask
+            id="pmask4"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="20"
+            y="40"
+            width="10"
+            height="11"
+          >
+            <path
+              d="M20.0183 40H24.9683L29.991 50.0182H25.0411L20.0183 40Z"
+              fill="black"
+            ></path>
+          </mask>
+          <g mask="url(#pmask4)">
+            <rect x="20" y="40" width="10" height="10" fill="#050607"></rect>
+            <rect
+              x="20"
+              y="40"
+              width="10"
+              height="10"
+              fill="#AC835E"
+              class="preloader__fill"
+              style="animation-delay: 240ms"
+            ></rect>
+          </g>
+          <mask
+            id="pmask5"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="9"
+            y="40"
+            width="12"
+            height="11"
+          >
+            <path
+              d="M9.97266 40H14.9954L20.0182 50.0182H14.9954L9.97266 40Z"
+              fill="black"
+            ></path>
+          </mask>
+          <g mask="url(#pmask5)">
+            <rect x="10" y="40" width="10" height="10" fill="#050607"></rect>
+            <rect
+              x="10"
+              y="40"
+              width="10"
+              height="10"
+              fill="#CA9D75"
+              class="preloader__fill"
+              style="animation-delay: 1280ms"
+            ></rect>
+          </g>
+          <mask
+            id="pmask6"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="0"
+            y="40"
+            width="10"
+            height="11"
+          >
+            <path
+              d="M0 40H4.94996L9.9727 50.0182H5.02275L0 40Z"
+              fill="black"
+            ></path>
+          </mask>
+          <g mask="url(#pmask6)">
+            <rect y="40" width="10" height="10" fill="#050607"></rect>
+            <rect
+              y="40"
+              width="10"
+              height="10"
+              fill="#AC835E"
+              class="preloader__fill"
+              style="animation-delay: 1360ms"
+            ></rect>
+          </g>
+          <mask
+            id="pmask7"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="40"
+            y="50"
+            width="21"
+            height="20"
+          >
+            <path
+              d="M60.0546 50.0183H50.0819L40.0364 69.9817H50.0091L60.0546 50.0183Z"
+              fill="black"
+            ></path>
+          </mask>
+          <g mask="url(#pmask7)">
+            <rect x="40" y="50" width="20" height="20" fill="#050607"></rect>
+            <rect
+              x="40"
+              y="50"
+              width="20"
+              height="20"
+              fill="#AC835E"
+              class="preloader__fill"
+              style="animation-delay: 480ms"
+            ></rect>
+          </g>
+          <mask
+            id="pmask8"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="20"
+            y="0"
+            width="21"
+            height="21"
+          >
+            <path
+              d="M20.0183 0H29.991L40.0365 20.0366H30.0638L20.0183 0Z"
+              fill="black"
+            ></path>
+          </mask>
+          <g mask="url(#pmask8)">
+            <rect x="20" width="20" height="20" fill="#050607"></rect>
+            <rect
+              x="20"
+              width="20"
+              height="20"
+              fill="#CA9D75"
+              class="preloader__fill"
+              style="animation-delay: 960ms"
+            ></rect>
+          </g>
+          <mask
+            id="pmask9"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="40"
+            y="0"
+            width="21"
+            height="21"
+          >
+            <path
+              d="M60.0546 0H50.0819L40.0364 20.0366H50.0091L60.0546 0Z"
+              fill="black"
+            ></path>
+          </mask>
+          <g mask="url(#pmask9)">
+            <rect x="40" width="20" height="20" fill="#050607"></rect>
+            <rect
+              x="40"
+              width="20"
+              height="20"
+              fill="#AC835E"
+              class="preloader__fill"
+              style="animation-delay: 560ms"
+            ></rect>
+          </g>
+          <mask
+            id="pmask10"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="40"
+            y="20"
+            width="21"
+            height="20"
+          >
+            <path
+              d="M60.0546 20.0366H50.0819L40.0364 40H50.0091L60.0546 20.0366Z"
+              fill="black"
+            ></path>
+          </mask>
+          <g mask="url(#pmask10)">
+            <rect x="40" y="20" width="20" height="20" fill="#050607"></rect>
+            <rect
+              x="40"
+              y="20"
+              width="20"
+              height="20"
+              fill="#CA9D75"
+              class="preloader__fill"
+              style="animation-delay: 1040ms"
+            ></rect>
+          </g>
+          <mask
+            id="pmask11"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="60"
+            y="20"
+            width="20"
+            height="20"
+          >
+            <path
+              d="M80 20.0366H70.1001L60.0546 40H69.9545L80 20.0366Z"
+              fill="black"
+            ></path>
+          </mask>
+          <g mask="url(#pmask11)">
+            <rect x="60" y="20" width="20" height="20" fill="#050607"></rect>
+            <rect
+              x="60"
+              y="20"
+              width="20"
+              height="20"
+              fill="#CA9D75"
+              class="preloader__fill"
+              style="animation-delay: 1120ms"
+            ></rect>
+          </g>
+          <mask
+            id="pmask12"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="40"
+            y="40"
+            width="11"
+            height="11"
+          >
+            <path
+              d="M50.0091 40H45.0591L40.0364 50.0182H44.9863L50.0091 40Z"
+              fill="black"
+            ></path>
+          </mask>
+          <g mask="url(#pmask12)">
+            <rect x="40" y="40" width="10" height="10" fill="#050607"></rect>
+            <rect
+              x="40"
+              y="40"
+              width="10"
+              height="10"
+              fill="#AC835E"
+              class="preloader__fill"
+              style="animation-delay: 0ms"
+            ></rect>
+          </g>
+          <mask
+            id="pmask13"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="29"
+            y="69"
+            width="12"
+            height="11"
+          >
+            <path
+              d="M29.9908 69.9817H35.0136L40.0363 80H35.0136L29.9908 69.9817Z"
+              fill="black"
+            ></path>
+          </mask>
+          <g mask="url(#pmask13)">
+            <rect x="30" y="70" width="10" height="10" fill="#050607"></rect>
+            <rect
+              x="30"
+              y="70"
+              width="10"
+              height="10"
+              fill="#AC835E"
+              class="preloader__fill"
+              style="animation-delay: 160ms"
+            ></rect>
+          </g>
+          <mask
+            id="pmask14"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="40"
+            y="69"
+            width="11"
+            height="11"
+          >
+            <path
+              d="M50.0091 69.9817H45.0591L40.0364 80H44.9863L50.0091 69.9817Z"
+              fill="black"
+            ></path>
+          </mask>
+          <g mask="url(#pmask14)">
+            <rect x="40" y="70" width="10" height="10" fill="#050607"></rect>
+            <rect
+              x="40"
+              y="70"
+              width="10"
+              height="10"
+              fill="#CA9D75"
+              class="preloader__fill"
+              style="animation-delay: 880ms"
+            ></rect>
+          </g>
+          <mask
+            id="pmask15"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="50"
+            y="40"
+            width="11"
+            height="11"
+          >
+            <path
+              d="M60.0545 40H55.0318L50.009 50.0182H55.0318L60.0545 40Z"
+              fill="black"
+            ></path>
+          </mask>
+          <g mask="url(#pmask15)">
+            <rect x="50" y="40" width="10" height="10" fill="#050607"></rect>
+            <rect
+              x="50"
+              y="40"
+              width="10"
+              height="10"
+              fill="#CA9D75"
+              class="preloader__fill"
+              style="animation-delay: 400ms"
+            ></rect>
+          </g>
+          <mask
+            id="pmask16"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="60"
+            y="40"
+            width="11"
+            height="11"
+          >
+            <path
+              d="M70.0273 40H65.0773L60.0546 50.0182H65.0045L70.0273 40Z"
+              fill="black"
+            ></path>
+          </mask>
+          <g mask="url(#pmask16)">
+            <rect x="60" y="40" width="10" height="10" fill="#050607"></rect>
+            <rect
+              x="60"
+              y="40"
+              width="10"
+              height="10"
+              fill="#AC835E"
+              class="preloader__fill"
+              style="animation-delay: 1520ms"
+            ></rect>
+          </g>
+          <mask
+            id="pmask17"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="70"
+            y="40"
+            width="10"
+            height="11"
+          >
+            <path
+              d="M80.0001 40H75.0501L70.0273 50.0182H74.9773L80.0001 40Z"
+              fill="black"
+            ></path>
+          </mask>
+          <g mask="url(#pmask17)">
+            <rect x="70" y="40" width="10" height="10" fill="#050607"></rect>
+            <rect
+              x="70"
+              y="40"
+              width="10"
+              height="10"
+              fill="#CA9D75"
+              class="preloader__fill"
+              style="animation-delay: 800ms"
+            ></rect>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <!-- sub-header -->
+    <div class="sub-header pt-3">
+      <div class="container d-flex justify-content-between">
+        <div class="d-flex align-items-center">
+          <div class="mr-1">
+            <img
+              src="./asset/img/location.svg"
+              alt="location"
+              width="16px"
+              height="16px"
+            />
+          </div>
+          <p>66/52 Phổ Quang, P.2, Q. Tân Bình, TP. Hồ Chí Minh</p>
+        </div>
+        <div class="d-flex align-items-center">
+          <div class="mr-1">
+            <img
+              src="./asset/img/phone.svg"
+              alt="phone"
+              width="16px"
+              height="16px"
+            />
+          </div>
+          <p>(+84) 28 2240 6511</p>
+        </div>
+        <div class="d-flex align-items-center">
+          <div class="d-flex align-items-center">
+            <div class="mr-1">
+              <img
+                src="./asset/img/Vietnam_logo.png"
+                alt="logo"
+                width="16px"
+                height="16px"
+              />
+            </div>
+            <p>TIẾNG VIỆT</p>
+          </div>
+          <div class="vertical-line mx-2"></div>
+          <div class="d-flex align-items-center">
+            <div class="mr-1">
+              <img
+                src="./asset/img/kingdom_logo.png"
+                alt="logo"
+                width="16px"
+                height="16px"
+              />
+            </div>
+            <p>ENGLISH</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Banner -->
+    <div class="banner">
+      <div class="container">
+        <div class="d-flex header justify-content-between py-3">
+          <nav class="navbar navbar-expand-lg navbar-light p-0" style="flex: 1">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#" style="color: #f3f3f3"
+                    >Trang chủ <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    style="color: #f3f3f3; margin: 0 50px"
+                    >Sản phẩm</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: #f3f3f3"
+                    >Dịch vụ</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <img src="./asset/img/logo.svg" alt="logo" />
+          <nav class="navbar navbar-expand-lg navbar-light p-0" style="flex: 1">
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: #f3f3f3"
+                    >Về chúng tôi</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    style="color: #f3f3f3; margin: 0 50px"
+                    >Tin tức</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: #f3f3f3"
+                    >Liên hệ</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <img
+        src="./asset/img/banner.png"
+        alt="banner"
+        width="100%"
+        height="862px"
+      />
+      <div class="container">
+        <div class="banner-title d-flex align-items-center">
+          <h3>SẢN XUẤT BỀN VỮNG</h3>
+          <div class="vertical-line2"></div>
+          <h3>THÂN THIỆN MÔI TRƯỜNG</h3>
+          <div class="vertical-line2"></div>
+          <h3>TIẾT KIỆM NĂNG LƯỢNG</h3>
+        </div>
+      </div>
+    </div>
+    <!-- Time line -->
+    <div class="timeline">
+      <div class="d-flex container">
+        <img src="./asset/img/logo.svg" alt="" />
+        <div>
+          <h3>NĂM</h3>
+          <p>ĐỂ PHÁT TRIỂN</p>
+          <p style="font-size: 8px">ĐỂ TẬN TỤY</p>
+        </div>
+        <div class="vertical-line3"></div>
+        <div>
+          <h3>QUÁ TRÌNH HÌNH THÀNH</h3>
+          <p style="font-size: 14px">VÀ PHÁT TRIỂN</p>
+        </div>
+      </div>
+      <div class="time-line-content">
+        <div class="d-flex pt-3">
+          <div class="mr-4 d-flex flex-column justify-content-between">
+            <p>
+              <span> 4-1998:</span> Thành lập Trung tâm Dịch vụ Quảng cáo và tổ
+              chức Hội chợ: chuyên cung cấp các dịch vụ thiết kế, in ấn, quảng
+              cáo ngoài trời, tổ chức hội chợ, sự kiện, thực hiện các dịch
+              truyền thông, sản xuất TVCs
+            </p>
+            <p>
+              <span>4-2005:</span><br />
+              - Chuyển đổi Trung tâm thành Công ty, thành lập công ty TNHH Quảng
+              cáo và Thương Mại Dương Phong chuyên cung cấp các dịch vụ thiết
+              kế, in ấn, quảng cáo ngoài trời, sản xuất thiết bị quảng cáo<br />
+              - Xây dựng xưởng cơ khí chuyên xây lắp dàn dựng bảng biển quảng
+              cáo tấm lớn, sản xuất thiết bị quảng cáo
+            </p>
+            <p>
+              <span> 2008:</span> xây dựng nhà in Dương Phong với quy mô nhỏ
+              700m2 chuyên in ấn phẩm quảng cáo, lịch, sách
+            </p>
+            <p>
+              <span> 2012:</span> nâng cấp nhà in Dương Phong lên quy mô
+              6.000m2, bổ sung thêm các máy móc phục vụ ngành sản xuất bao bì
+              giấy, thùng hộp carton
+            </p>
+            <p>
+              <span> 2012-2024:</span> iên tục nâng cấp nhà in, xưởng sản xuất
+              thiết bị quảng cáo, trang bị máy móc hiện đại, hoàn thiện quy
+              trình sản xuất đảm bảo tự động hoá chiếm 70% các công đoạn.
+            </p>
+          </div>
+          <div>
+            <img
+              src="./asset/img/small_banner.png"
+              alt=""
+              height="100%"
+              width="500px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- product -->
+    <div class="product py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex">
+            <div class="vertical-line4 mr-4"></div>
+            <h1>SẢN PHẨM</h1>
+          </div>
+        </div>
+      </div>
+      <!-- Slider main container -->
+      <div class="swiper-container">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="./asset/img/product_img.png" alt="" />
+              <p class="mt-3">ẤN PHẨM</p>
+            </div>
+            <div class="swiper-slide">
+              <p class="mb-3">BAO BÌ – HỘP GIẤY</p>
+              <img src="./asset/img/product_img_2.png" alt="" height="450px" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asset/img/product_img_3.png" alt="" />
+              <p class="mt-3">THIẾT BỊ QUẢNG CÁO</p>
+            </div>
+            <div class="swiper-slide">
+              <p class="mb-3">BAO BÌ – HỘP GIẤY</p>
+              <img src="./asset/img/product_img_2.png" alt="" height="450px" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asset/img/product_img.png" alt="" />
+              <p class="mt-3">ẤN PHẨM</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./asset/img/product_img_3.png" alt="" />
+              <p class="mt-3">THIẾT BỊ QUẢNG CÁO</p>
+            </div>
+          </div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+        <button type="button" class="swiper-btn btn rounded-circle">
+          XEM THÊM
+        </button>
+      </div>
+    </div>
+    <!-- service -->
+    <div class="service">
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex">
+            <div class="vertical-line4 mr-4"></div>
+            <h1>DỊCH VỤ</h1>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="row mt-4 justify-content-center">
+          <div class="col-2 p-0">
+            <img src="./asset/img/service_img.png" alt="" width="100%" />
+          </div>
+          <div class="col-2 p-0">
+            <div class="service-content">
+              <p>Thiết kế <br />ấn phẩm</p>
+            </div>
+          </div>
+          <div class="col-2 p-0">
+            <img src="./asset/img/service_img_2.png" alt="" width="100%" />
+          </div>
+          <div class="col-2 p-0">
+            <div class="service-content">
+              <p style="text-align: end">
+                Thiết kế - tạo mẫu <br />quầy kệ,<br />
+                tủ trưng bày sản phẩm (POSM)
+              </p>
+            </div>
+          </div>
+          <div class="col-2 p-0">
+            <img src="./asset/img/service_img_3.png" alt="" width="100%" />
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-2 p-0">
+            <img src="./asset/img/service_img_4.png" alt="" width="100%" />
+          </div>
+          <div class="col-2 p-0">
+            <img src="./asset/img/service_img_5.png" alt="" width="100%" />
+          </div>
+          <div class="col-2 p-0">
+            <div
+              class="service-content"
+              style="display: flex; align-items: flex-end"
+            >
+              <p>
+                Thiết kế <br />tạo mẫu<br />
+                bao bì, hộp
+              </p>
+            </div>
+          </div>
+          <div class="col-2 p-0">
+            <img src="./asset/img/service_img_6.png" alt="" width="100%" />
+          </div>
+          <div class="col-2 p-0">
+            <img src="./asset/img/service_img_7.png" alt="" width="100%" />
+          </div>
+        </div>
+      </div>
+      <button type="button" class="service-btn btn rounded-circle">
+        XEM THÊM
+      </button>
+    </div>
+
+    <!-- partner -->
+    <div class="partner">
+      <h3>CÁC QUỸ ĐỐI TÁC CỦA CHÚNG TÔI</h3>
+      <!-- Slider main container -->
+
+      <div class="swiper2">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper justify-content-center">
+          <!-- Slides -->
+          <div class="swiper-slide2">
+            <img src="./asset/img/partner_1.png" alt="" />
+          </div>
+          <div class="swiper-slide2">
+            <img src="./asset/img/partner_2.png" alt="" />
+          </div>
+          <div class="swiper-slide2">
+            <img src="./asset/img/partner_3.png" alt="" />
+          </div>
+          <div class="swiper-slide2">
+            <img src="./asset/img/partner_4.png" alt="" />
+          </div>
+          <div class="swiper-slide2">
+            <img src="./asset/img/partner_5.png" alt="" />
+          </div>
+          <div class="swiper-slide2">
+            <img src="./asset/img/partner_6.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="swiper2">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper justify-content-center">
+          <!-- Slides -->
+          <div class="swiper-slide2">
+            <img src="./asset/img/partner_6.png" alt="" />
+          </div>
+          <div class="swiper-slide2">
+            <img src="./asset/img/partner_5.png" alt="" />
+          </div>
+          <div class="swiper-slide2">
+            <img src="./asset/img/partner_4.png" alt="" />
+          </div>
+          <div class="swiper-slide2">
+            <img src="./asset/img/partner_3.png" alt="" />
+          </div>
+          <div class="swiper-slide2">
+            <img src="./asset/img/partner_2.png" alt="" />
+          </div>
+          <div class="swiper-slide2">
+            <img src="./asset/img/partner_1.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <button type="button" class="partner-btn btn rounded-circle">
+        ĐẾN VỚI CHÚNG TÔI
+      </button>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <p style="font-weight: bold; font-size: 16px">
+              CÔNG TY TNHH QUẢNG CÁO VÀ THƯƠNG MẠI DƯƠNG PHONG (DPA)
+            </p>
+            <div class="d-flex align-items-center">
+              <div class="mr-1">
+                <img
+                  src="./asset/img/location.svg"
+                  alt="location"
+                  width="16px"
+                  height="16px"
+                />
+              </div>
+              <p>66/52 Phổ Quang, P.2, Q. Tân Bình, TP. Hồ Chí Minh</p>
+            </div>
+            <div class="d-flex align-items-center">
+              <div class="mr-1">
+                <img
+                  src="./asset/img/phone_icon.svg"
+                  alt="location"
+                  width="16px"
+                  height="16px"
+                />
+              </div>
+              <div class="d-flex">
+                <p>08. 38 44 1111</p>
+                <p class="ml-3">fax: 08. 3997 1009</p>
+              </div>
+            </div>
+            <div class="d-flex align-items-center">
+              <div class="mr-1">
+                <img
+                  src="./asset/img/mail.svg"
+                  alt="location"
+                  width="16px"
+                  height="16px"
+                />
+              </div>
+              <p>contact@dpa.vn</p>
+            </div>
+          </div>
+          <div class="col-3" style="margin-top: 50px">
+            <img src="./asset/img/contact_footer.png" alt="" width="200px" />
+          </div>
+          <div class="col-3">
+            <p style="font-weight: bold; font-size: 16px">
+              OUR MENU CATAGORIES
+            </p>
+            <p class="mt-1">TRANG CHỦ</p>
+            <p class="mt-1">GIỚI THIỆU</p>
+            <p class="mt-1">THÔNG TIN</p>
+            <p class="mt-1">THƯ VIỆN</p>
+            <p class="mt-1">HỖ TRỢ</p>
+          </div>
+          <div class="col-3">
+            <p style="font-weight: bold; font-size: 16px">LAST EVENS</p>
+            <p class="mt-1">Christmas</p>
+            <p class="mt-1">Black Friday</p>
+            <p class="mt-1">Sunday Special</p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col">
+            <div>
+              <p style="font-weight: bold; font-size: 13px">
+                NHÀ IN DƯƠNG PHONG:
+              </p>
+              <p>
+                7/9A, Ấp 1, xã Xuân Thới Thượng,<br />
+                Huyện Hóc Môn, Tp.HCM
+              </p>
+            </div>
+            <div class="mt-3">
+              <p style="font-weight: bold; font-size: 13px">
+                XƯỞNG SẢN XUẤT KỸ THUẬT SỐ:
+              </p>
+              <p>số 5 Phạm Ngũ Lão, Quận Gò Vấp, Tp.HCM</p>
+            </div>
+            <div class="mt-3">
+              <p style="font-weight: bold; font-size: 13px">VPĐD TẠI HÀ NỘI:</p>
+              <p>R.707, 65 Văn Miếu, Đống Đa , Hà Nội</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col d-flex justify-content-end">
+            <p style="font-weight: bold; font-size: 13px">NEW ETTER</p>
+            <button type="button" class="footer-btn mx-5">
+              Enter your e-mail adress
+            </button>
+            <button type="button" class="footer-btn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+    <script type="module">
+      import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
+
+      const swiper = new Swiper(".swiper", {
+        slidesPerView: 3,
+        // spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      const swiper2 = new Swiper(".swiper2", {
+        slidesPerView: 1,
+        // spaceBetween: 10,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+  </body>
+</html>
